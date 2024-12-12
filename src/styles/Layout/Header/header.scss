@@ -4,15 +4,17 @@
       align-items: center;
       gap: 1rem;
       padding: 0 3rem;
+      img {
+            height: 45px;
+      }
+
+      ul {
+            padding: 0;
+            list-style-type: none;
+      }
 }
 
-.header img {
-      height: 45px;
-}
 
-.header ul {
-      padding: 0;
-}
 
 .nav-link {
       display: flex;
@@ -33,9 +35,6 @@
       gap: 1rem;
 }
 
-.header ul {
-      list-style-type: none;
-}
 
 @media only screen and (max-width: 375px) {
       .header img {

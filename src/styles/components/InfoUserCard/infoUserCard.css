@@ -3,13 +3,11 @@
   align-items: center;
   justify-content: space-evenly;
 }
-
 .userInfo h2 {
   width: 45%;
   font-weight: 500;
   color: #ff6060;
 }
-
 .userInfo img {
   height: 64px;
   width: 64px;

@@ -6,17 +6,17 @@
 .banner-info {
       display: grid;
       place-items: center;
+      img, 
+      h1 {
+            grid-area: 1/1;
+      }
+      h1 {
+            font-size: clamp(1.5rem, 5vw, 3.5rem);
+            margin: unset;
+            padding: 0 1rem;
+      }
 }
 
-.banner-info img, 
-.banner-info h1 {
-      grid-area: 1/1;
-}
-.banner-info h1 {
-      font-size: clamp(1.5rem, 5vw, 3.5rem);
-      margin: unset;
-      padding: 0 1rem;
-}
 .image-banner {
       border-radius: 25px;
       filter: brightness(75%);

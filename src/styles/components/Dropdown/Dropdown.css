@@ -14,12 +14,10 @@
   width: 100%;
   justify-content: space-between;
 }
-
 .title-dropdown h2 {
   color: #ffffff;
   margin-left: 2.5%;
 }
-
 .title-dropdown img {
   margin-right: 2.5%;
 }
@@ -30,7 +28,6 @@
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-
 .dropdown-container-content div {
   margin: auto;
   color: #000;
@@ -42,9 +39,6 @@
   margin-right: auto;
   line-height: 142.6%;
   list-style-type: none;
-}
-
-.dropdown-container-content div {
   padding-top: 2%;
   padding-bottom: 2%;
 }

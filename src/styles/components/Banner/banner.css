@@ -7,12 +7,10 @@
   display: grid;
   place-items: center;
 }
-
 .banner-info img,
 .banner-info h1 {
   grid-area: 1/1;
 }
-
 .banner-info h1 {
   font-size: clamp(1.5rem, 5vw, 3.5rem);
   margin: unset;
