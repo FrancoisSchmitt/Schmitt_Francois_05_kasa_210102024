@@ -44,3 +44,10 @@
             width: 665px;
       }
 }
+
+@media only screen and (max-width: 432px) {     
+      .index-carousel {
+            max-width: 60%;
+      }
+}
+

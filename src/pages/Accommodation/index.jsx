@@ -69,7 +69,6 @@ function Accomodation() {
                                                 content={
                                                       accommodation.description
                                                 }
-                                                className="lolasa"
                                           />
 
                                           <Dropdown
