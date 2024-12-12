@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import SliderButton from '../SliderButton';
-import './index.css';
+import "../../styles/components/Slider/slider.css";
 
 function Slider({ pictures }) {
       const [slider, setSliderAnnimation] = useState({

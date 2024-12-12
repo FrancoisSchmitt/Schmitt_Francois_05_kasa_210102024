@@ -4,7 +4,7 @@ import Dropdown from '../../components/Dropdown';
 import InfoUserCard from '../../components/InfoUserCard';
 import Tag from '../../components/Tag';
 import InfoAccommodation from '../../components/InfoAccommodation';
-import './index.css';
+import "../../styles/pages/Accomodation/accomodation.css";
 import Stars from '../../components/Stars';
 import Slider from '../../components/Slider';
 import { useEffect } from 'react';
@@ -100,11 +100,3 @@ function Accomodation() {
 }
 
 export default Accomodation;
-
-// useEffect(()=>{
-// if (!id == newId.id){
-//     console.log(newId.id + "lol")
-//     navigate("/404")
-// }
-// console.log('coucou')
-// },[])

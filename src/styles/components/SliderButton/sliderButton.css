@@ -1,0 +1,22 @@
+button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+  background-color: none;
+  background: none;
+  border: none;
+}
+
+.next {
+  right: 1%;
+}
+
+.previous {
+  left: 1%;
+}
+
+.slider-button.next img,
+.slider-button.previous img {
+  height: 40px;
+}/*# sourceMappingURL=sliderButton.css.map */

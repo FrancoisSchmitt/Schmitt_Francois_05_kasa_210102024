@@ -3,7 +3,8 @@ import logements from '../../data/logements.json';
 import Card from '../../components/Card';
 import Banner from '../../components/Banner';
 import { Link } from 'react-router-dom';
-import './index.css';
+// import './index.css';
+import '../../styles/pages/Home/Home.css'
 function getAllAccomodation() {
       return logements.map((logement) => {
             return {

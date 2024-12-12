@@ -1,0 +1,57 @@
+.image-acco {
+  height: 340px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.linear-image {
+  position: absolute;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  bottom: 4px;
+}
+
+.title-card {
+  font-size: 18px;
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  bottom: 1rem;
+  padding: 0 1rem;
+  text-wrap: wrap;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+  .card-info,
+.linear-image,
+.image-acco {
+    width: 100%;
+    height: 255px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .linear-image {
+    bottom: 0px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card-info,
+.linear-image,
+.image-acco {
+    width: 100%;
+    height: 255px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .card-info,
+.linear-image,
+.image-acco {
+    width: 100%;
+    height: 255px;
+  }
+}/*# sourceMappingURL=card.css.map */

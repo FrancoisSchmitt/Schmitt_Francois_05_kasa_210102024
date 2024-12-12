@@ -1,6 +1,6 @@
 import leftArrow from '../../assets/Vector-1.svg';
 import rightArrow from '../../assets/Vector.svg';
-import './index.css';
+import "../../styles/components/SliderButton/sliderButton.css";
 
 function SliderButton({ direction, goTo }) {
       return (

@@ -1,0 +1,35 @@
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-info {
+  display: grid;
+  place-items: center;
+}
+
+.banner-info img,
+.banner-info h1 {
+  grid-area: 1/1;
+}
+
+.banner-info h1 {
+  font-size: clamp(1.5rem, 5vw, 3.5rem);
+  margin: unset;
+  padding: 0 1rem;
+}
+
+.image-banner {
+  border-radius: 25px;
+  filter: brightness(75%);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.title-banner {
+  filter: brightness(100);
+  font-size: 48px;
+  color: #fff;
+  /* margin-top: -11%; */
+  text-align: center;
+}/*# sourceMappingURL=banner.css.map */

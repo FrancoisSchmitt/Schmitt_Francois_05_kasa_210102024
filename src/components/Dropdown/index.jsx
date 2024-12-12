@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './index.css';
+import "../../styles/components/Dropdown/Dropdown.css";
 import arrayDown from '../../assets/array-down.svg';
 import arrayUp from '../../assets/array-up.svg';
 function Dropdown(nextProps) {
