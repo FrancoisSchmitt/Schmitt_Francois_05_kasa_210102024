@@ -33,6 +33,11 @@
   margin-right: 2%;
 }
 
+@media only screen and (max-width: 600px) {
+  .card-content {
+    width: 100% !important;
+  }
+}
 @media only screen and (max-width: 425px) {
   .accommodation {
     display: flex;
